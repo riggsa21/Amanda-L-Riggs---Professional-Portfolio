@@ -1,51 +1,70 @@
 # Amanda Riggs | Professional Portfolio
 
-A growing collection of academic, professional, and independent projects showcasing research, data analysis, programming, automation, geospatial analysis, and visual communication.
+**Research · Data Analysis · Programming · Automation · Visual Communication**
 
-This portfolio highlights how I investigate questions, develop practical solutions, and communicate results. Additional work from my undergraduate studies and other experiences will be added as the collection develops.
+I bring together research, analytical thinking, and technical tools to turn complex information into understandable results. My work includes academic research at East Carolina University, independent demonstrations, and GeoSite Intel project materials.
 
-## Project Highlights
+This collection shows how I approach a question, organize and analyze information, build repeatable workflows, and explain the results through reports, presentations, and maps. Geospatial work is one part of that broader approach. Additional undergraduate and independent work will be added over time.
 
-The following projects are planned additions. Files, detailed descriptions, and links will be added as materials are reviewed and prepared.
+## Start with These Three Projects
 
-| Project | Focus |
+| Project | What to look for | Open |
+|---|---|---|
+| **Fairview property intelligence** | Turning environmental, terrain, and drainage information into a structured screening report | [Report](Fairview_Property_Intelligence_Report.pdf) |
+| **Python order validation** | Checking messy records, separating exceptions, and producing useful summaries | [Demo guide](Order_Validation_README.txt) · [Code](process_demo_orders.py) |
+| **Savannah land-cover analysis** | Comparing imagery from two periods and communicating classification and change results | [Report](Savannah_Land_Cover_Analysis_Report.pdf) |
+
+For project context, contributions, methods, outputs, and limitations, see the [Project Guide](PROJECT_GUIDE.md).
+
+## Skills in Practice
+
+| Area | Examples in this portfolio |
 |---|---|
-| **601 Fairview Property Intelligence Report** | Applied research, site analysis, automated workflows, and professional reporting. |
-| **Python Order Validation** | Business data validation and processing through a repeatable Python workflow. |
-| **Geoprocessing Batch Script and Presentation** | Workflow automation, data preparation, and technical communication. |
-| **Thesis Research** | Research methods, environmental analysis, and communication through maps and supporting materials. |
-| **Savannah Land-Cover Change Analysis** | Remote sensing, land-cover classification, and analysis of landscape change over time. |
-| **Professional Website** | Web development, content organization, and visual presentation of services and work samples. |
+| Research and evidence synthesis | Property screening, thesis-related work, environmental analysis |
+| Programming and automation | Python CSV validation; ArcGIS Pro and ArcPy preprocessing workflows |
+| Data analysis and quality review | Record validation, image classification, accuracy assessment, constraint overlays |
+| Technical communication | Analytical reports, workflow documentation, teaching presentations |
+| Visual communication | Thematic maps, study-area context, comparative results |
 
-## Additional Work
+## Selected Visuals
 
-Potential additions include:
+### Research context: Pitt County, North Carolina
 
-- Owen Sound Site Selection Demonstration
-- Hydrologic DEM Processing
-- Selected maps, presentations, and technical reports
-- Undergraduate research, coursework, and independent projects
+[![Thesis study-area map showing Pitt County, sub-watersheds, and land-cover classes](Thesis_Pitt_County_Study_Area.jpg)](Thesis_Pitt_County_Study_Area.jpg)
 
-## Exploring the Projects
+### Analytical communication: Savannah land-cover change
 
-Each featured project will include relevant information about:
+[![Map of selected land-cover transitions in Savannah between 1999 and 2025](Savannah_Land_Cover_Change_1999_2025.jpg)](Savannah_Land_Cover_Analysis_Report.pdf)
 
-- The question or problem it addresses
-- My role and contribution
-- Methods, tools, and data used
-- Key results and selected outputs
-- Limitations, credits, and references
+Select an image to open the map or its supporting report.
 
-## About the Materials
+## Explore the Collection
 
-This repository is being developed as a curated professional portfolio. Project descriptions distinguish my contributions from collaborative work and third-party resources.
+- [Applied research and property screening](PROJECT_GUIDE.md#applied-research-and-property-screening)
+- [Python and business data automation](PROJECT_GUIDE.md#python-and-business-data-automation)
+- [Geoprocessing automation and presentations](PROJECT_GUIDE.md#geoprocessing-automation-and-presentations)
+- [Thesis research and environmental communication](PROJECT_GUIDE.md#thesis-research-and-environmental-communication)
+- [Savannah land-cover classification and change](PROJECT_GUIDE.md#savannah-land-cover-classification-and-change)
+- [Hydrologic terrain processing](PROJECT_GUIDE.md#hydrologic-terrain-processing)
+- [Buncombe flood-risk analysis](PROJECT_GUIDE.md#buncombe-flood-risk-analysis)
+- [Cartography and LiDAR](PROJECT_GUIDE.md#cartography-and-lidar)
 
-Some projects require specialized software or external datasets to reproduce. Where applicable, project documentation will identify those requirements.
+## Run the Python Demonstration
+
+The example uses fictional sample orders and the Python standard library. With Python 3 installed, run this command from the repository folder:
+
+```bash
+python process_demo_orders.py
+```
+
+The script reads `sample_orders.csv` and regenerates `clean_orders.csv`, `review_required.csv`, and `customer_summary.csv`. It leaves the input unchanged. See the [demo guide](Order_Validation_README.txt) for details.
+
+## Scope and Attribution
+
+Academic work and independent demonstrations are identified in the project guide. GeoSite Intel reports are presented as screening and communication samples; inclusion does not imply a commissioned client engagement. Model outputs and desktop screening are interpreted within the limitations described in their source reports.
+
+This repository contains selected deliverables. Full GIS datasets, project environments, and intermediate files are outside its scope. Reproducing GIS analyses may require specialized software, licenses, and external data. Original source credits and references remain in the project materials.
 
 ## Copyright and Reuse
 
-Unless otherwise noted, original materials in this repository are © 2026 Amanda Riggs. All rights reserved.
-
-This portfolio presents selected work for professional review. No additional permission to reuse original materials is granted unless a project includes a separate license.
-
-Third-party datasets, software, images, and other resources remain subject to their respective licenses and attribution requirements. Collaborative work is credited within each project.
+Unless otherwise noted, original materials are © 2026 Amanda Riggs. All rights reserved. No additional reuse permission is granted unless a project includes a separate license. Existing project-specific notices apply. Third-party datasets, software, imagery, and other resources remain subject to their respective licenses and attribution requirements.
