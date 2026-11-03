@@ -1,5 +1,7 @@
 # Amanda Riggs | Professional Portfolio
 
+[View résumé (PDF)](Amanda_Riggs_Professional_Resume.pdf)
+
 **Research · Data Analysis · Programming · Automation · Visual Communication**
 
 I bring together research, analytical thinking, and technical tools to turn complex information into understandable results. My work includes academic research at East Carolina University, independent demonstrations, and GeoSite Intel project materials.
@@ -74,3 +76,4 @@ This repository contains selected deliverables. Full GIS datasets, project envir
 ## Copyright and Reuse
 
 Unless otherwise noted, original materials are © 2026 Amanda Riggs. All rights reserved. No additional reuse permission is granted unless a project includes a separate license. Existing project-specific notices apply. Third-party datasets, software, imagery, and other resources remain subject to their respective licenses and attribution requirements.
+
