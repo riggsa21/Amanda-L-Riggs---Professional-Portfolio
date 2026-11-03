@@ -1,0 +1,8 @@
+order_id,customer,date,amount,status,line_number,issues
+DEMO-004,Sample Customer 05,10-99-2026,40.00,shipped,5,Invalid date
+DEMO-009,Sample Customer 10,2026-10-10,not-a-number,pending,10,Invalid amount
+,Sample Customer 04,2026-10-16,70.25,pending,16,Missing order ID
+DEMO-022,Sample Customer 11,invalid,89.50,shipped,23,Invalid date
+DEMO-029,Sample Customer 06,2026-10-12,,shipped,30,Invalid amount
+DEMO-037,Sample Customer 02,2026-10-02,130.75,unknown,38,Invalid status
+DEMO-043,Sample Customer 08,2026-02-30,147.25,shipped,44,Invalid date
