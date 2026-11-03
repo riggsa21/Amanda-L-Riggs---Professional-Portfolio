@@ -2,6 +2,8 @@
 
 [Back to the portfolio](README.md)
 
+PDFs, images, and text files usually open in your browser. PowerPoint presentations, Python scripts, and CSV files may download or prompt you to save them, depending on your browser settings.
+
 This guide explains the purpose and scope of the selected work. It separates academic projects, independent demonstrations, and GeoSite Intel report samples. Contributions described below refer to the work presented; source data, software, and references retain their original attribution.
 
 ## Applied Research and Property Screening
@@ -18,7 +20,7 @@ This guide explains the purpose and scope of the selected work. It separates aca
 
 **Limits:** Screening-level GIS analysis; a modeled candidate area does not establish permitted or buildable land.
 
-[Read the Fairview report](Fairview_Property_Intelligence_Report.pdf)
+[View fairview report (PDF)](Fairview_Property_Intelligence_Report.pdf)
 
 ### Mills Road Property Screening
 
@@ -32,7 +34,7 @@ This guide explains the purpose and scope of the selected work. It separates aca
 
 **Limits:** The report does not confirm contamination, legal access, wetland boundaries, engineering suitability, or buildability. It is labeled as a demonstration rather than a completed professional determination.
 
-[Read the Mills Road report](Mills_Road_Property_Screening_Report.pdf)
+[View mills Road report (PDF)](Mills_Road_Property_Screening_Report.pdf)
 
 ### Owen Sound Site Selection
 
@@ -46,7 +48,7 @@ This guide explains the purpose and scope of the selected work. It separates aca
 
 **Limits:** Scenario acreage is not confirmed developable acreage. No record is cleared for the intended housing form or planning pathway; source geometry, servicing, access, and applicable policies require further checking.
 
-[Read the Owen Sound demonstration](Owen_Sound_Site_Selection_Demonstration.pdf)
+[View owen Sound demonstration (PDF)](Owen_Sound_Site_Selection_Demonstration.pdf)
 
 ## Python and Business Data Automation
 
@@ -56,11 +58,11 @@ This guide explains the purpose and scope of the selected work. It separates aca
 
 **Work represented:** A Python script checks order IDs, dates, amounts, status values, and customer names; routes invalid rows for review; and totals accepted amounts by customer. It uses `csv`, `pathlib`, `datetime`, and `collections` from the standard library.
 
-**Deliverables:** [Source code](process_demo_orders.py), [sample input](sample_orders.csv), [accepted records](clean_orders.csv), [exceptions](review_required.csv), and [customer totals](customer_summary.csv).
+**Deliverables:** [Download Python script (.py)](process_demo_orders.py), [Download sample input (CSV)](sample_orders.csv), [Download accepted records (CSV)](clean_orders.csv), [Download exceptions (CSV)](review_required.csv), and [Download customer totals (CSV)](customer_summary.csv).
 
 **Limits:** This is a compact demonstration of validation and reporting logic. It does not implement a production accounting system or comprehensive financial validation.
 
-[Read the run instructions](Order_Validation_README.txt)
+[View run instructions (text)](Order_Validation_README.txt)
 
 ## Geoprocessing Automation and Presentations
 
@@ -74,9 +76,9 @@ This guide explains the purpose and scope of the selected work. It separates aca
 
 **Deliverables and value:** A technical report and presentations that explain both the workflow and the problem it addresses.
 
-- [Automation report](Geoprocessing_Batch_Automation_Report.pdf)
-- [Batch automation presentation](Geoprocessing_Batch_Automation_Presentation.pptx)
-- [Preprocessing tool presentation](Data_Preprocessing_Tool_Presentation.pptx)
+- [View automation report (PDF)](Geoprocessing_Batch_Automation_Report.pdf)
+- [Download batch automation presentation (PowerPoint)](Geoprocessing_Batch_Automation_Presentation.pptx)
+- [Download preprocessing tool presentation (PowerPoint)](Data_Preprocessing_Tool_Presentation.pptx)
 
 **Limits:** Reproduction requires the relevant ArcGIS environment and input data. The report documents the workflow; this selection does not include a standalone executable tool package.
 
@@ -88,7 +90,7 @@ This guide explains the purpose and scope of the selected work. It separates aca
 
 **Work represented:** A regional study-area map and selected nutrient-delivery and stormwater-retention outputs. The maps connect broader land-cover context with more focused environmental analysis.
 
-**Deliverables:** [Study area](Thesis_Pitt_County_Study_Area.jpg), [Greens Mill Run nutrient-delivery detail](Thesis_Greens_Mill_Run_Nutrient_Delivery.jpg), and [stormwater-retention volume](Thesis_Stormwater_Retention_Volume.jpg).
+**Deliverables:** [View study area (image)](Thesis_Pitt_County_Study_Area.jpg), [View greens Mill Run nutrient-delivery detail (image)](Thesis_Greens_Mill_Run_Nutrient_Delivery.jpg), and [View stormwater-retention volume (image)](Thesis_Stormwater_Retention_Volume.jpg).
 
 **Limits:** These are selected visual outputs, not the complete thesis, model inputs, or validation record. Quantitative interpretation requires the supporting research context.
 
@@ -102,7 +104,7 @@ This guide explains the purpose and scope of the selected work. It separates aca
 
 **Methods:** Landsat imagery, spectral interpretation, supervised classification, accuracy assessment, and change detection.
 
-**Deliverables:** [Analysis report](Savannah_Land_Cover_Analysis_Report.pdf), [1999 classification](Savannah_1999_Classification.jpg), [2025 classification](Savannah_2025_Classification.jpg), and [change map](Savannah_Land_Cover_Change_1999_2025.jpg).
+**Deliverables:** [View analysis report (PDF)](Savannah_Land_Cover_Analysis_Report.pdf), [View 1999 classification (image)](Savannah_1999_Classification.jpg), [View 2025 classification (image)](Savannah_2025_Classification.jpg), and [View change map (image)](Savannah_Land_Cover_Change_1999_2025.jpg).
 
 **Limits:** Comparisons depend on classification accuracy, training choices, class definitions, and differences between the imagery dates and sensors. Mapped transitions should be read alongside the report's assessment.
 
@@ -114,7 +116,7 @@ This guide explains the purpose and scope of the selected work. It separates aca
 
 **Contribution:** Documented a terrain-processing workflow for Greens Mill Run using hydro-flattening, conditioning, and drainage enforcement techniques in ArcGIS Pro. The report connects processing decisions to intended use in the InVEST Nutrient Delivery Ratio model.
 
-**Deliverables:** [Methods report](Hydrologic_DEM_Processing_Report.pdf) and [selected result map](Hydrologic_DEM_Processing_Map.jpg).
+**Deliverables:** [View methods report (PDF)](Hydrologic_DEM_Processing_Report.pdf) and [View selected result map (image)](Hydrologic_DEM_Processing_Map.jpg).
 
 **Limits:** DEM processing and modeled flow require interpretation against source resolution, infrastructure representation, and validation evidence. These outputs are research materials rather than an engineering certification.
 
@@ -126,7 +128,7 @@ This guide explains the purpose and scope of the selected work. It separates aca
 
 **Contribution:** Developed and documented a Python workflow in ArcGIS Pro using ArcPy and NumPy, with terrain and hydrologic processing applied to Buncombe County, North Carolina.
 
-**Deliverables:** [Analysis and scripting report](Buncombe_Flood_Risk_Analysis_Report.pdf) and [final map](Buncombe_Flood_Risk_Map.jpg).
+**Deliverables:** [View analysis and scripting report (PDF)](Buncombe_Flood_Risk_Analysis_Report.pdf) and [View final map (image)](Buncombe_Flood_Risk_Map.jpg).
 
 **Limits:** This is an academic modeling exercise. Its output is not an official flood-hazard determination or a substitute for a calibrated hydraulic study.
 
@@ -138,8 +140,8 @@ This guide explains the purpose and scope of the selected work. It separates aca
 
 **Work represented:** Two coastal maps and a LiDAR building-extraction visualization. These samples demonstrate layout, geographic context, and the presentation of spatial information in different formats.
 
-- [Cape Lookout map](Cape_Lookout_Map.pdf)
-- [Harkers Island map](Harkers_Island_Map.jpg)
-- [3D buildings from LiDAR](Extracting_3D_Buildings_from_LiDAR.pdf)
+- [View cape Lookout map (PDF)](Cape_Lookout_Map.pdf)
+- [View harkers Island map (image)](Harkers_Island_Map.jpg)
+- [View 3D buildings from LiDAR (PDF)](Extracting_3D_Buildings_from_LiDAR.pdf)
 
 **Limits:** The individual sheets are visual work samples. Full processing histories and input datasets are not included; source credits remain on the materials.

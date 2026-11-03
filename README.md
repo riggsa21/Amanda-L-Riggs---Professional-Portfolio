@@ -10,9 +10,11 @@ This collection shows how I approach a question, organize and analyze informatio
 
 | Project | What to look for | Open |
 |---|---|---|
-| **Fairview property intelligence** | Turning environmental, terrain, and drainage information into a structured screening report | [Report](Fairview_Property_Intelligence_Report.pdf) |
-| **Python order validation** | Checking messy records, separating exceptions, and producing useful summaries | [Demo guide](Order_Validation_README.txt) · [Code](process_demo_orders.py) |
-| **Savannah land-cover analysis** | Comparing imagery from two periods and communicating classification and change results | [Report](Savannah_Land_Cover_Analysis_Report.pdf) |
+| **Fairview property intelligence** | Turning environmental, terrain, and drainage information into a structured screening report | [View report (PDF)](Fairview_Property_Intelligence_Report.pdf) |
+| **Python order validation** | Checking messy records, separating exceptions, and producing useful summaries | [View demo guide (text)](Order_Validation_README.txt) · [Download Python script (.py)](process_demo_orders.py) |
+| **Savannah land-cover analysis** | Comparing imagery from two periods and communicating classification and change results | [View report (PDF)](Savannah_Land_Cover_Analysis_Report.pdf) |
+
+PDFs, images, and text files usually open in your browser. PowerPoint presentations, Python scripts, and CSV files may download or prompt you to save them, depending on your browser settings.
 
 For project context, contributions, methods, outputs, and limitations, see the [Project Guide](PROJECT_GUIDE.md).
 
@@ -32,11 +34,15 @@ For project context, contributions, methods, outputs, and limitations, see the [
 
 [![Thesis study-area map showing Pitt County, sub-watersheds, and land-cover classes](Thesis_Pitt_County_Study_Area.jpg)](Thesis_Pitt_County_Study_Area.jpg)
 
+[View study-area map (image)](Thesis_Pitt_County_Study_Area.jpg)
+
 ### Analytical communication: Savannah land-cover change
 
 [![Map of selected land-cover transitions in Savannah between 1999 and 2025](Savannah_Land_Cover_Change_1999_2025.jpg)](Savannah_Land_Cover_Analysis_Report.pdf)
 
-Select an image to open the map or its supporting report.
+[View Savannah analysis report (PDF)](Savannah_Land_Cover_Analysis_Report.pdf)
+
+Select an image or its labeled link to open the map or supporting report.
 
 ## Explore the Collection
 
@@ -57,7 +63,7 @@ The example uses fictional sample orders and the Python standard library. With P
 python process_demo_orders.py
 ```
 
-The script reads `sample_orders.csv` and regenerates `clean_orders.csv`, `review_required.csv`, and `customer_summary.csv`. It leaves the input unchanged. See the [demo guide](Order_Validation_README.txt) for details.
+The script reads `sample_orders.csv` and regenerates `clean_orders.csv`, `review_required.csv`, and `customer_summary.csv`. It leaves the input unchanged. See the [View demo guide (text)](Order_Validation_README.txt) for details.
 
 ## Scope and Attribution
 
